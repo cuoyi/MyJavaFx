@@ -45,7 +45,7 @@ public class LoginController extends BaseFXController {
     @Override
     public void initialize(URL location, ResourceBundle resources) {
 
-        ObservableList<String> names = observableArrayList("baidu", "zhihu", "qq", "126");
+        ObservableList<String> names = observableArrayList("baidu2", "zhihu", "qq", "126");
         listView.setItems(names);
 
         Callback<ListView<String>, ListCell<String>> defaultCellFactory = TextFieldListCell.forListView();
